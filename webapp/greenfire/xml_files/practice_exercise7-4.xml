@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-4: Using a for loop with a list containing text</Title>
+<Data>
+Using a for loop, write a program to display the data in the list called city_names. This list stores the names of the cities, “Loftar”, “Miton”, and “Apella”.</Data>
+</Chapter>

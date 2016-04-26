@@ -1,0 +1,18 @@
+h2 {
+  background-color: blue;
+  color: red;
+  }
+  h2.plus {
+  	background: "+" no-repeat left center;
+  	color: blue; 
+  }
+  h2.minus {
+  	background: "-" no-repeat left center; 
+  	color: blue;
+  }
+  dev.closed {
+  	display: none;
+  }
+  div.open {
+  	display: block;
+  }

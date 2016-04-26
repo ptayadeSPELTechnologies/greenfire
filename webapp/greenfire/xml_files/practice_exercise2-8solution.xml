@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-8 Solution</Title>
+<Data>user_data = input('Enter some information')
+print user_data
+</Data>
+</Chapter>

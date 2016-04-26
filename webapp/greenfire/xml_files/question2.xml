@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 2</Title>
+     <Data>What would happen if Merscythe entered the name ‘Ari’ spelled as A r i on the display instead of his own?  If you enter the name correctly as input, Chapter 3 will be unlocked. This program has been copied into the editor for you. Run it with the correct input.</Data>
+    	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected Output: <samp>Hello, Ari <br></br>Access granted</samp> ]]></ExpectedOutput>
+		<Code></Code>
+	</Instruction>
+</Chapter>

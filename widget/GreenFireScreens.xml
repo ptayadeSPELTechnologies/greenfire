@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-screen.xsd">
+
+
+    <screen name="main">
+        <section>
+            <actions>
+                <set field="headerItem" value="main"/><!-- this highlights the selected menu-item with name "main" -->
+            </actions>
+            <widgets>
+                <decorator-screen name="demoCommonDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="header">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/header.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+        <screen name="chapterlinks">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/chapterlinks.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="home">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/index.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="book1">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/book.ftl"/></html></platform-specific>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+
+    
+     <screen name="footer">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/footer.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="xhtml-decorator">
+        <section>
+            <actions>
+               <set field="layoutSetting.styleSheets[]" value="/images/email_list_test.css"/>
+            </actions>
+        
+            <widgets>
+                 <include-screen name="header"/> 
+                <!--   <include-screen name="chapterlinks"/> -->
+                <decorator-section-include name="title"/>
+                <decorator-section-include name="body"/>
+                <include-screen name="footer"/>
+            </widgets>
+        </section>
+    </screen>
+    
+    
+    <screen name="tutorials">
+        <section>
+        <condition>
+            <if-compare field="parameters.show" operator="equals" value="widgets"/>
+        </condition>
+        
+        <actions>
+            <script location="component://greenfire//webapp/greenfire/WEB-INF/actions/conditionalScreenActions.bsh"/>
+        </actions>
+        
+        <widgets>
+            <label text="Condition passed. Showing widgets element. Blah is: ${blah}"/>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/header.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorials.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor.ftl"/></html></platform-specific>           
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/footer.ftl"/></html></platform-specific>
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <!-- Added by priyanka for tutorials -->
+    
+    <screen name="mainNav">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorialSidebar">
+        <section>
+            <widgets>
+                <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/tutorialSidebar.ftl"/></html></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="IndexPage">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/IndexPage.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>            
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    
+    <screen name="tutorial1">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial1.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>              
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorial2">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial2.ftl"/></html></platform-specific> <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>             
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorial3">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial3.ftl"/></html></platform-specific><platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>              
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorial4">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial4.ftl"/></html></platform-specific>   <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>           
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    
+        
+    <screen name="tutorial5">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial5.ftl"/></html></platform-specific>   <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>           
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorial6">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial6.ftl"/></html></platform-specific>   <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>           
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorial7">
+        <section>
+        <widgets>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-header.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/mainNav.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorialSidebar.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorial7.ftl"/></html></platform-specific>    <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/main-footer.ftl"/></html></platform-specific>          
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    
+    <screen name="practice_exercises">
+        <section>
+        
+        <widgets>
+            <label text="Condition passed. Showing widgets element. Blah is: ${blah}"/>
+            <label text="${passMsg}"/>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/header.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/practice_exercises.ftl"/></html></platform-specific>
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor_with_checker.ftl"/></html></platform-specific>  
+            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/includes/footer.ftl"/></html></platform-specific>
+        </widgets>
+        
+        <fail-widgets> 
+            <label text="Condition failed Showing fail widgets element. Blah is ${blah}"/>
+        </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="editor">
+        <section>
+            <actions>
+        
+            </actions>
+            
+            <widgets>
+                <decorator-screen name="xhtml-decorator">  
+                        <!--  <decorator-section name="title">
+                            <label text="Editor"/>
+                        </decorator-section> -->
+                        
+                        <decorator-section name="body">  
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor.ftl"/></html></platform-specific>   
+                        </decorator-section>
+                </decorator-screen> 
+            </widgets>
+        </section>
+    </screen>
+    
+       <!--  remove this screen -->
+        <screen name="email_list_test">
+        <section>
+        <actions>
+                <set field= "layoutSettings.styleSheets[]"  value="/greenfire/webapp/greenfire/styles/email_list_test.css"  global="true"/>
+            </actions>
+            
+            <widgets>
+                <decorator-screen name="xhtml-decorator">   
+                        <decorator-section name="body">  
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/email_list_test.ftl"/></html></platform-specific>  
+                        </decorator-section>
+                </decorator-screen> 
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="tutorials">
+        <section>
+            <!-- <condition>
+                <if-compare field="parameters.show" operator="equals" value="widgets"/>
+            </condition>  -->
+            
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <label text="New Condition has passed. showing widgets element. blah is ${blah}"/>
+                <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="title">
+                            <label text=""/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">  
+                            <section>
+                                    <widgets>           
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/tutorials.ftl"/></html></platform-specific>    
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor.ftl"/></html></platform-specific>   
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+            
+            <fail-widgets>
+                <label text="Condition failed! Showing fail widgets element. Blah is ${blah}"/>
+            </fail-widgets>
+        </section>
+    </screen>
+    
+        
+    <screen name="questions">
+        <section>
+            <!-- <condition>
+                <if-compare field="parameters.show" operator="equals" value="widgets"/>
+            </condition>  -->
+            
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <label text="New Condition has passed. showing widgets element. blah is ${blah}"/>
+                <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="title">
+                            <label text="Chapters"/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">  
+                            <section>
+                                    <widgets>           
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/questions.ftl"/></html></platform-specific>    
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor_with_checker.ftl"/></html></platform-specific>  
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+            
+            <fail-widgets>
+                <label text="Condition failed! Showing fail widgets element. Blah is ${blah}"/>
+            </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="chapters">
+        <section>
+            <!-- <condition>
+                <if-compare field="parameters.show" operator="equals" value="widgets"/>
+            </condition>  -->
+            
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <label text="New Condition has passed. showing widgets element. blah is ${blah}"/>
+                <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="title">
+                            <label text="Chapters"/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">  
+                            <section>
+                                    <widgets>           
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/chapters.ftl"/></html></platform-specific> 
+                            <!--   <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/editor.ftl"/></html></platform-specific> -->    
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+            
+            <fail-widgets>
+                <label text="Condition failed! Showing fail widgets element. Blah is ${blah}"/>
+            </fail-widgets>
+        </section>
+    </screen>
+    
+    <!--  <screen name="chapters">
+        <section>
+            <condition>
+                <if-compare field="parameters.show" operator="equals" value="widgets"/>
+            </condition>  
+            
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <label text="New Condition passed. showing widgets element. blah is ${blah}"/>
+                <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="title">
+                            <label text="Chapter"/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">  
+                            <include-form name="FirstForm" location="component://greenfire/widget/LearningForms.xml"/> 
+                            <section>
+                                <condition><not><if-empty field="parameters.submit"/></not></condition>
+                                    <widgets>
+                                        <container><label text="firstName: ${parameters.firstName}"/></container>
+                                        <container><label text="firstName: ${parameters.lastName}"/></container>
+                                        <container><label text="combined: ${parameters.combined}"/></container>
+                                        <container><label text="submit: ${parameters.submit}"/></container>
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/chapters.ftl"/></html></platform-specific> 
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+            
+            <fail-widgets>
+                <label text="Condition failed! Showing fail widgets element. Blah is ${blah}"/>
+            </fail-widgets>
+        </section>
+    </screen>
+     -->
+    
+    <screen name="chapter1">
+        <section>
+            <!-- <condition>
+                <if-compare field="parameters.show" operator="equals" value="widgets"/>
+            </condition>  -->
+            
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <label text="New Condition passed. showing widgets element. blah is ${blah}"/>
+                <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="title">
+                            <label text="Chapter"/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">  
+                            <section>
+                                <condition><not><if-empty field="parameters.submit"/></not></condition>
+                                    <widgets>
+                                        <container><label text="firstName: ${parameters.firstName}"/></container>
+                                        <container><label text="firstName: ${parameters.lastName}"/></container>
+                                        <container><label text="combined: ${parameters.combined}"/></container>
+                                        <container><label text="submit: ${parameters.submit}"/></container>
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/chapter1.ftl"/></html></platform-specific> 
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+            
+            <fail-widgets>
+                <label text="Condition failed! Showing fail widgets element. Blah is ${blah}"/>
+            </fail-widgets>
+        </section>
+    </screen>
+    
+    <screen name="oneFormScreen">
+        <section>
+            <widgets>
+                <label text="Chapter is ${parameters.chapterNumber}"/>
+                    <decorator-screen name="xhtml-decorator">  
+                        <decorator-section name="Title">
+                            <label text="{parameters.chapterTitle}"/>
+                        </decorator-section>
+                        
+                        <decorator-section name="body">        
+                            <section>
+                                <!--   <condition><not><if-empty field="parameters.submit"/></not></condition> -->
+                                    <widgets>
+                                        <container><label text="firstName: ${parameters.firstName}"/></container>
+                                        <container><label text="firstName: ${parameters.lastName}"/></container>
+                                        <container><label text="submit: ${parameters.submit}"/></container>
+                                        <container><label text="All parameters were received ${parameters.allParams}"/></container>
+                                    </widgets>
+                            </section>
+                            <platform-specific><html><html-template location="component://greenfire/webapp/greenfire/chapters.ftl"/></html></platform-specific> 
+                        </decorator-section>
+                </decorator-screen>     
+            </widgets>
+        </section>
+    </screen>
+        
+    
+    <screen name="NestedSections">
+        <section>
+            <condition>
+                <if-compare field="parameters.outer" operator="equals" value="true"/>
+            </condition>
+                
+            <actions>
+                <set field="blah" value="blih"/>
+            </actions>
+            
+            <widgets>
+                <container><label text="In then part. blah is ${blah}"/></container>
+                <container><label text="inner is: ${parameters.inner}"/></container>
+
+            
+                <section>
+                
+                    <condition>
+                        <if-compare field="parameters.inner" operator="equals" value="true"/>
+                    </condition>
+                    
+                    <actions>
+                        <set field="inner.blah" value="thenBlih"/>
+                    </actions>
+                    
+                    <widgets>
+                        <label text="in then=then part. inner.blah is ${inner.blah}"/>
+                    </widgets>
+                    
+                    <fail-widgets>
+                        <label text="In then-else part. inner.blah is ${inner.blah}"/>
+                    </fail-widgets>
+                </section>
+            </widgets>
+            
+            <fail-widgets>
+                <container><label text="In Else part. Blah is ${blah}"/></container>
+                <container><label text="inner is ${parameters.inner}"/></container>
+                
+                <section>
+                    <condition>
+                        <if-compare field="parameters.inner" operator="equals" value="true"/>
+                    </condition>
+                    
+                    <actions>
+                        <set field="inner.blah" value="elseBlih"/>
+                    </actions>
+                    
+                    <widgets>
+                        <label text="In Else-then part. inner.blah is ${inner.blah}"/>
+                    </widgets>
+                    
+                    <fail-widgets>
+                        <label text="In Else-Else part. inner.blah is: ${Inner.blah}"/>
+                    </fail-widgets>
+                </section>
+            </fail-widgets>
+        </section>
+    </screen>
+    
+    
+    <screen name="CompoundedScreen">
+        <section>
+            <widgets>
+                <container> <include-screen name="NestedSections"/></container>
+                <container> <include-screen name="tutorials"/></container>
+                <container> <include-screen name="editor"/></container>
+            </widgets>
+        </section>
+    </screen>
+    
+   <!--  <screen name ="editcontactmech.planet.dropdown" > 
+    	<section> 
+	    	<actions> 
+	    	<entity-one entity-name ="Planet" value-name ="planet" > 
+	    		<field-map field-name ="planetId" env-name ="mechMap.postalAddress.planet" /> 
+	    		<select-field field-name="planetId"/>
+	    	</entity-one> 
+	    	<entity-condition entity-name =" Planet" filter-by-date =" true" list-name =" planets" > 
+	    		<order-by field-name ="planetName" /> 
+	    		<
+	    	</entity-condition > </actions> 
+	    	<widgets> 
+	    	<platform-specific> 
+	    	<html> 
+	    	<html-template location="component://greenfire/webapp/greenfire/editcontactmech.planet.dropdown.ftl" /> 
+	    	</html> </platform-specific> 
+	    	</widgets> 
+    	</section> 
+    </screen> -->
+
+
+</screens>
+        

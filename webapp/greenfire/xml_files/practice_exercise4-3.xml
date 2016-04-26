@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-3: Method with one argument</Title>
+<Data>Python has a built-in class called math that has many methods, such as factorial, floor, and fsum, to perform mathematical operations. For example, the factorial of number 5 is given by the product of all numbers from 1 to 5. The factorial method takes one argument, which is the number whose factorial is to be determined. You can use this method as follows to find the factorial of 5:
+math.factorial(5)
+Write a program to calculate the factorial of 10 using this method and display it.
+</Data>
+</Chapter>

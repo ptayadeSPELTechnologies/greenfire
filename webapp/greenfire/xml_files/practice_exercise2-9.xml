@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-9: Using the input function</Title>
+<Data>Write a program that uses the function input to prompt the user to enter a number and read it into a variable called num. The program adds 2 to the value stored in num, multiplies the resulting value by 10, then subtracts 13 and prints out the result. Note: The input function returns the number as text instead of a numeric value. You can convert it to a floating-point number by using a built-in function called float spelled as f l o a t:
+float(num)
+
+Now you can perform arithmetic operations such as float(num)+2
+</Data>
+</Chapter>

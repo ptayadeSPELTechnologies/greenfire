@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-6: Moving the Glass Elevator to the lowest floor</Title>
+<Data>The custom class GlassElevator has a method at_bottom that returns True if the elevator is at the lowest floor. Write a program that uses a while loop to display the number of each floor as the elevator moves from the 0th floor to the lowest floor. The method go_to_floor in class GlassElevator takes the floor number of the destination floor as argument and moves the elevator to this floor.</Data>
+</Chapter>

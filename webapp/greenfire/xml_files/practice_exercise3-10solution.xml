@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-10 Solution</Title>
+<Data>text1 = 'aficionado' 
+if text1 == 'aficionado': 
+    print 'All lowercase' 
+elif text1 == 'Aficionado': 
+    print 'Starts with uppercase' 
+elif text1 == 'AFICIONADO': 
+    print 'All uppercase' 
+else: 
+    print 'Spelling not recognized'
+</Data>
+</Chapter>

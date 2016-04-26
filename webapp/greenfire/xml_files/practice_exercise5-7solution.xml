@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-7 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+# create an object of class ScienceFacts called science
+science = ScienceFacts()
+
+# use the get_telescope_name() method to get the name of a telescope and store in variable scope_name
+scope_name = science.get_telescope_name()
+
+# use the method display_telescope_name with the argument scope_name to get information about a telescope
+science.display_telescope_facts(scope_name)
+</Data>
+</Chapter>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-5:  Reading user input inside a while loop</Title>
+<Data>Prompt a user to enter a name and read it into a variable called new_name. Using a while loop, repeat this process until the user enters the name “Merscythe”.</Data>
+</Chapter>

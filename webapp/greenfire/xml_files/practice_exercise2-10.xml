@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-10: Using the input function, modulo operator</Title>
+<Data>Write a program  that uses the function input to prompt the user to enter a number and read it into a variable called num. The program then displays the last digit of the number. For example, if the number entered is 2345, the program displays the number 5. To extract the last digit of the number, you need to get the remainder when the number is divided by 10. The modulo operator, which uses the % symbol on the keyboard, can be used to get the remainder when a division operation is performed. For example, to get the remainder when 7 is divided by 4, you can use 7%4. This returns the result 3. </Data>
+</Chapter>

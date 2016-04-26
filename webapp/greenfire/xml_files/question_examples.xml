@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Examples>
+<Data>from Door import Door
+treedoor = Door()
+treedoor.close() 
+</Data>
+<Data>from Door import Door
+from Alarm import Alarm
+user = input('IDENTIFY YOURSELF')
+print 'Hello, ' +user
+exit = Door()
+siren = Alarm()
+if user == 'Ari':
+    print 'Access granted'
+else:
+    print 'Access denied'
+    exit.close()
+    siren.enable()
+</Data>
+<Data>from Door import Door
+from Alarm import Alarm
+user = input('IDENTIFY YOURSELF')
+print 'Hello, ' +user
+exit = Door()
+siren = Alarm()
+if user == 'Ari':
+    print 'Access granted'
+else:
+    print 'Access denied'
+    exit.close()
+    siren.enable()
+</Data>
+<Data>from GlassElevator import GlassElevator
+</Data>
+<Data></Data>
+<Data></Data>
+<Data></Data>
+<Data></Data>
+<Data></Data>
+<Data></Data>
+</Examples>

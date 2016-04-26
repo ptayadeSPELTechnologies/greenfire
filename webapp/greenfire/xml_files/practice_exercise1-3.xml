@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-3: Calling a method</Title>
+<Data>The custom class ScienceFacts contains a method display_speed_of_light that prints out the speed of light in meters per second. Write a program that calls this method.
+</Data>
+</Chapter>
+
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-4: Method with two arguments</Title>
+<Data>The pow(x, y)  method in the math class returns the value of the first argument x raised to the power of the second argument y. Write a program to display the value of 10.5 raised to the power of 3.</Data>
+</Chapter>

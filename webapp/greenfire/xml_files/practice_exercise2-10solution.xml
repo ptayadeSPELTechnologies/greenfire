@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-10 Solution</Title>
+<Data>num = input('Enter a number:')
+remainder = float(num) % 10
+print remainder
+</Data>
+</Chapter>

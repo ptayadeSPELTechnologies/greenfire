@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-4 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+science = ScienceFacts()
+science.display_age_of_earth()
+</Data>
+</Chapter>

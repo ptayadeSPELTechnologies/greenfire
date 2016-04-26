@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 3</Title>
+     <Data>Change the program shown in the editor so that Merscythe can escape from Ari’s lab. You should only change the if/else statement in the program so that if the name Ari is entered as input on the screen, the program should print “Access denied”. Otherwise, if any other name is entered, the program should print out the two words “Access granted” and the exit must be unlocked. If your program runs correctly, chapter 4 will be unlocked.</Data>  
+	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected Output: <table class="codeTable" >
+			    <tr>
+					<th>Input</th>
+					<th>Output</th>
+				</tr>
+				<tr>
+					<td valign="top"><br>Ari</td>
+					<td><br>Hello, Ari <br>Access denied</td>
+				</tr>
+				<tr>
+					<td valign="top"><br>Any other name</td>
+					<td><br>Hello, user input <br>Access granted <br>Opened door</td>
+				</tr>
+			</table> ]]></ExpectedOutput>
+		<Code><![CDATA[
+			<table class="codeTable">
+			    <tr>
+					<th>class Door</th>
+				</tr>
+				<tr>
+					<th>Method</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>open()</td>
+					<td>Method to open door</td>
+				</tr>
+				<tr>
+					<td>close()</td>
+					<td>Method to close door</td>
+				</tr>
+				<tr>
+					<td>knock()</td>
+					<td>Method to knock on door</td>
+				</tr>
+			</table>
+			]]>
+		</Code>
+	</Instruction>   
+</Chapter>

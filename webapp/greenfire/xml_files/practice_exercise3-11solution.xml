@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-11 Solution</Title>
+<Data>age1 = 40
+age2 = 30
+if age1 >= age2:
+    print 'age1 is greater than or equal to age2'
+</Data>
+</Chapter>
+
+

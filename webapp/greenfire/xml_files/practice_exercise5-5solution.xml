@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-5 Solution</Title>
+<Data>curr_date = input("Enter today's date")
+print curr_date
+</Data>
+</Chapter>

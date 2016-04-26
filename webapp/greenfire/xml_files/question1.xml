@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 1</Title>
+     <Data>Merscythe starts playing with the program in the device by making changes to it. What change will open the tree door? After you have changed the program in the editor, run the program. If the program is correct, the output of the program will be “Opened door”. This will unlock Chapter 2.</Data>
+	<Instruction>
+		<ExpectedOutput><![CDATA[ <div class="outputbox"> Expected Output: <samp>Opened door</samp></div> ]]></ExpectedOutput>
+		<des></des>	
+		<Code><![CDATA[
+		
+		<div class="title5" >Class Door has the following methods:</div>
+		<div class="outputbox">
+			
+			<table class="codeTable" >
+				<tr>
+					<td class="title6">Method</td>
+					<td class="title6">Description</td>
+				</tr>
+					<td><code>open()</code></td>
+					<td>Method to open door</td>
+				</tr>
+				<tr>
+					<td><code>close()</code></td>
+					<td>Method to close door</td>
+				</tr>
+				<tr>
+					<td><code>knock()</code></td>
+					<td>Method to knock on door</td>
+				</tr>
+			</table>
+			</div>
+			]]>
+		</Code>
+	</Instruction>
+</Chapter>

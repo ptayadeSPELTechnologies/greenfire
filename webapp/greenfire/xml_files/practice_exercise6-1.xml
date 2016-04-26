@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-1: A while loop to display numbers 0 to 5</Title>
+<Data>Write a while loop that displays the numbers 0 to 5. Use a loop variable i that has an initial value of 0 and evaluate it using the following condition:
+i &lt;= 5
+</Data>
+</Chapter>

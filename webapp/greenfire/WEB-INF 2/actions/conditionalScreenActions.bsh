@@ -1,0 +1,5 @@
+String blah="abc";
+context.put("blah", blah);  //"blah" is the reference in the screen widgets local context. blah is the variable declared here
+passMsg=  "In message: Blah is <br/>" +context.get("blah") + " show is" +parameters.get("show");
+
+context.put("passMsg", passMsg);

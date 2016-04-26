@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-6: Using a for loop with a list containing objects</Title>
+<Data>The list elevator_list contains several objects of the Elevator class. Write a for loop to display these objects in the list.</Data>
+</Chapter>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-8 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+science = ScienceFacts()
+print 'The speed of light is ' +str(science.speed_of_light())
+</Data>
+</Chapter>

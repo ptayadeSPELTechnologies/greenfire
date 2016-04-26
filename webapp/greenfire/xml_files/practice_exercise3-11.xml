@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-11: Using the greater than or equal to operator</Title>
+<Data>When comparing values in a condition you may be interested in knowing if one value is either greater than or equal to the other. This type of condition is made up of two operators, a greater than symbol followed by an equals sign. For example, to check if variable var1 is greater than or equal to variable var2, you can write:
+
+var1 >= var2
+
+The variables age1 and age2 store the ages of two people. Write a condition to check if age1 is greater than or equal to age2.</Data>
+</Chapter>

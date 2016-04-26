@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-8 Solution
+</Title>
+<Data>badwater_depth = 86
+dead_sea_depth = 304
+
+if  dead_sea_depth &lt; badwater_depth:
+    print 'true'
+else:
+    print 'false'
+</Data>
+</Chapter>

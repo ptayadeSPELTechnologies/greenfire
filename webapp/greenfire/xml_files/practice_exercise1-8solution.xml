@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-8 Solution</Title>
+<Data>from Door import Door
+
+#create an object of class Door called treedoor
+treedoor = Door()
+
+# close the treedoor
+treedoor.close()
+</Data>
+</Chapter>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-1: Using the input function</Title>
+<Data>Write a statement that uses the input function to prompt the user to enter a date as follows: 
+
+Enter today’s date
+
+The input function returns the data typed in by the user. Store this data into a variable called curr_date and display it using a print statement.</Data>
+</Chapter>

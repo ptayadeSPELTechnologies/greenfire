@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-8 Solution</Title>
+<Data>from GlassElevator import GlassElevator
+
+current_floor = 0
+elevator = GlassElevator()
+
+while elevator.at_top() == False:
+    current_floor = current_floor + 1
+    elevator.go_to_floor(current_floor)
+
+print 'The highest floor is ' +str(current_floor)
+</Data>
+</Chapter>

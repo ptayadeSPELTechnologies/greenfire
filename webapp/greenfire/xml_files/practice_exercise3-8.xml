@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-8: The if-else statement and using the less than operator</Title>
+<Data>Write a program that prints out the word “true” if the depth of Dead Sea below sea level is less than the depth of Badwater; otherwise, it prints out the word “false”. The depth values are stored in the variables dead_sea_depth and badwater_depth.
+</Data>
+</Chapter>

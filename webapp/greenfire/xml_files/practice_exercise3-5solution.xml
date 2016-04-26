@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-5 Solution</Title>
+<Data>feldspar_percent = 60
+quartz_percent = 20
+
+if feldspar_percent > quartz_percent:
+    print 'feldspar is greater'
+else:
+    print 'quartz is greater'
+</Data>
+</Chapter>

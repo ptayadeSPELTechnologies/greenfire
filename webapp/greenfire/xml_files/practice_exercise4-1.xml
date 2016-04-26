@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-1: Method with one argument</Title>
+<Data>The custom class ScienceFacts has a method display_animal_facts that displays information about some animals, such as capybara, prairie dog, and armadillo. It takes the type of the animal as argument. Write a program to display information about the capybara (spelled as c-a-p-y-b-a-r-a).</Data>
+</Chapter>

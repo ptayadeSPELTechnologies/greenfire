@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-5: Calling a method</Title>
+<Data>The method display_time_light_travels in custom class ScienceFacts displays the time it takes for light to travel from the Sun to the Earth. Write a program that calls this method.</Data>
+</Chapter>
+
+

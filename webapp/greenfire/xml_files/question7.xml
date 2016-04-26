@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 7</Title>
+     <Data>Write a program to track the positions of the UFOS that are within a range of 500 meters from the Ariester. Assume that the current position of the Ariester is given by x = 0, y = 0, and z = -100. 
+Merscythe and Herv discuss a strategy for solving the problem. The algorithm is outlined below:
+Step 1. Create an object of the UfoTracker class called tracker.
+Step 2. Use the get_ufo_list method in the UfoTracker class to get a list containing the names of all Ufo objects. Store this data in a variable called ufo_list.
+Step 3: Check which Ufo objects in the list called ufo_list are within a range of 50 feet from the Ariester. You can use the method is_within_range of the Ufo class to identify these objects, and then print them using the method display of the Ufo class. 
+After you have written the program, run the program. If the program is correct, chapter 8 will be unlocked.
+</Data>
+	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected Output: <samp>Opened door</samp> ]]></ExpectedOutput>
+		<des></des>	
+		<Code><![CDATA[
+			<table>
+			    <tr>
+					<th>class Ufo</th>
+				</tr>
+				<tr>
+					<th>Method</th>
+					<th>Description</th>
+				</tr>
+					<td>is_within_range(x, y, z, range)</td>
+					<td>This method in the Ufo class takes 4 arguments. The first 3 arguments x, y, and z represent the current position of the Ariester. The fourth argument is range, which is the maximum distance of any UFOS being tracked from the Ariester. The method returns True if the Ufo object is active and within the specified range; otherwise, it returns False. The unit for distance is meters.</td>
+				</tr>
+				<tr>
+					<td>display()</td>
+					<td>This method in the Ufo class displays information about the UFOS for tracking purposes. It does not take any argument or return any data.</td>
+				</tr>
+			</table>
+			
+			<table>
+			    <tr>
+					<th colspan="2">class UfoTracker</th>
+				</tr>
+				<tr>
+					<th>Method name</th>
+					<th>Description</th>
+				</tr>
+					<td>get_ufo_list()</td>
+					<td>This method in the UfoTracker class does not take any arguments and returns a list contains objects of the Ufo class.</td>
+				</tr>
+			</table>
+			]]>
+		</Code>
+	</Instruction>
+</Chapter>

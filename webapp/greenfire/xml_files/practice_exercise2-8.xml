@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-8: Using the input function</Title>
+<Data>Write a program that uses the function input to prompt the user to type in some information and read it into a variable called user_data. Display this information using the print function.</Data>
+</Chapter>

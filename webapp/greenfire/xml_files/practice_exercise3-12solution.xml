@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-12 Solution</Title>
+<Data>temp1 = 75
+temp2 = 100
+
+if temp1 &lt;= temp2:
+    print 'temp1 is less than or equal to temp2'
+</Data>
+</Chapter>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-7: Creating a list of objects</Title>
+<Data>The init method in the custom class Ufo takes two arguments, the id number and the status, to create an object of this class. The status can be active or inactive. Create two objects ufo1 and ufo2, where ufo1 has id 10 and status of inactive, and ufo2 has id 13 and status of active. Add both objects to a list called ufo_list.</Data>
+</Chapter>

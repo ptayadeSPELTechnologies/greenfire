@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-1 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+science = ScienceFacts()
+</Data>
+</Chapter>

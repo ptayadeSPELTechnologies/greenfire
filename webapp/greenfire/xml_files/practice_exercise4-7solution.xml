@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-7 Solution</Title>
+<Data>print range(10, 15)
+</Data>
+</Chapter>

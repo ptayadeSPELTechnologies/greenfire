@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-9 Solution</Title>
+<Data>num = input('Enter a number:')
+num = (float(num)+2) * 10 - 13
+print num
+</Data>
+</Chapter>

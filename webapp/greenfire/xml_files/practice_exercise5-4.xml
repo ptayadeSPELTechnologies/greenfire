@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-4: Displaying result returned by the fmod method</Title>
+<Data>The fmod(x, y) method in the math class returns the remainder when x is divided by y, where x and y are floating point numbers. Using the fmod method,  a statement to store the remainder when 15.5 is divided by 2 in the variable result1. Then display the value of this variable using the print function.</Data>
+</Chapter>

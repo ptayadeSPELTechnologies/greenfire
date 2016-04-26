@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the greenfire Component." permissionId="GREENFIRE_VIEW"/>
+    <SecurityPermission description="Create operations in the greenfire Component." permissionId="GREENFIRE_CREATE"/>
+    <SecurityPermission description="Update operations in the greenfire Component." permissionId="GREENFIRE_UPDATE"/>
+    <SecurityPermission description="Delete operations in the greenfire Component." permissionId="GREENFIRE_DELETE"/>
+    <SecurityPermission description="ALL operations in the greenfire Component." permissionId="GREENFIRE_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="GREENFIRE_ADMIN"/>
+
+</entity-engine-xml>

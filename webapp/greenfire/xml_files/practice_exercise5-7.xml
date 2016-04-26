@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-7: Calling a method as an argument to a method</Title>
+<Data>A telescope is used for viewing distant objects. It consists of a tube with two glass lenses. The first lens in the front of the tube gathers light rays and focuses it near the back of the tube. A second lens at the end of the tube magnifies the image being viewed. This type of telescope is called a refractor. A different type of telescope, known as reflector, uses a mirror,  instead of a lens,  to gather light. In the custom class ScienceFacts, the method display_telescope_facts provides interesting facts about different types of telescopes, and takes the name of a telescope as argument. The method get_telescope_name stores names of famous telescopes and returns a randomly selected name. Write a program that uses both methods to display information about a telescope. Run the program several times.</Data>
+</Chapter>

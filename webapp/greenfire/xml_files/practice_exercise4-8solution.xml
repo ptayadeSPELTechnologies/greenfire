@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-8 Solution</Title>
+<Data>name1 = 'Verin'
+name2 = 'Underground Force of Safety'
+print name1, "is the commander of the", name2
+</Data>
+</Chapter>

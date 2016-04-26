@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-2: Method with one argument</Title>
+<Data>The custom class ScienceFacts has a method display_animal_facts that displays information about some animals. In this problem, you are given the additional information about the parameter in the method definition:
+def display_animal_facts(name)
+
+As in the previous problem, write a program to display information about the armadillo; however, in the method give the parameter name along with the argument.</Data>
+</Chapter>

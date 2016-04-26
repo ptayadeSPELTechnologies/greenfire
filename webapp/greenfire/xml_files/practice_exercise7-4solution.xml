@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-4 Solution</Title>
+<Data>city_names = ["Loftar", "Miton", "Apella"]
+# display
+for city in city_names:
+    print city
+</Data>
+</Chapter>

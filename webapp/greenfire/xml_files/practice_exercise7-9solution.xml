@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-9 Solution</Title>
+<Data>ufo1 = Ufo(10, 'inactive')
+ufo2 = Ufo(13, 'active')
+
+ufo_list = [ufo1, ufo2]
+
+for ufo in ufo_list:
+    if ufo.get_status() == 'active':
+        ufo.display()</Data>
+</Chapter>

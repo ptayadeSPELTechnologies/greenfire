@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-2: Displaying data returned by the range function</Title>
+<Data>The range function returns the generated list. Write a statement to generate the sequence 100, 101, 102, 103 using function range and store the data returned by the function into a list called seq. Display the list using the print function.
+</Data>
+</Chapter>

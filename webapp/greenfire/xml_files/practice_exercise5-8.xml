@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-8: The str function</Title>
+<Data>The str function takes a numeric value as argument and returns a  text representation of the number. This is especially useful when you want to display a variable that stores a number using the print function. For example, assume that variable num stores a number. To display this value, you can use this statement:
+print ‘The number is’ +str(num)
+
+After the numeric value is converted to string, you can display it with the other text in the print statement. The method speed_of_light in the custom class ScienceFacts returns the speed of light. In this problem, use this method in a print statement to display the speed of light with the following text before it:
+“The speed of light is”</Data>
+</Chapter>

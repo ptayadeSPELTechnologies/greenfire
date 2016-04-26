@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-6 Solution</Title>
+<Data>from Elevator import Elevator
+
+elevator_a = Elevator(100, 0, 1000)
+elevator_b = Elevator(101, 0, 1001)
+
+elevator_list = [elevator_a, elevator_b]
+
+for elevator in elevator_list:
+    print elevator
+</Data>
+</Chapter>
+  

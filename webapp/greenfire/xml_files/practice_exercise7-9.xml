@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-9: Using a for loop to selectively display objects in a list</Title>
+<Data>Write a program to display information only of those Ufo objects in a list with a status of “active”. Create two objects ufo1 and ufo2, where ufo1 has id 10 and status of inactive, and ufo2 has id 13 and status of active. Add both objects to a list called ufo_list. The get_status method in the Ufo class returns the status of an object, and the display method in the same class returns information about an object. Use a for loop to iterate over the list and display information about each object that has a status of active.</Data>
+</Chapter>

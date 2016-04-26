@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-5: Creating custom objects of a class</Title>
+<Data>
+The method init in the Elevator class takes three arguments, elevator_floor, lowfloor, and highfloor, and creates a custom object of this class. The first argument elevator_floor is the initial floor the elevator starts on. The next two arguments, lowfloor and highfloor,  are the lowest and highest floors, respectively, that the elevator goes to. The init method is never called explicitly; instead, the class name is used to create the object. For example, to create an elevator object called elevator1 that starts on floor 101 of a building with lowest and highest floors of 0 and 200, respectively, you can write:
+
+elevator1 = Elevator(101, 0, 200)
+
+In this exercise, create two custom objects of Elevator called elevator_a and elevator_b. elevator_a has a starting floor of 100, lowest floor of 0 and highest floor of 1000. elevator_b has a starting floor of 101, lowest floor of 0 and highest floor of 1001, respectively. Add these two objects to a list called elevator_list.</Data>
+</Chapter>

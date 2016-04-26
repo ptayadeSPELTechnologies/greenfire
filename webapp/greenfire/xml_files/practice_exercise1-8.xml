@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-8: Using comments</Title>
+<Data>A comment consists of text that is not part of the program but is used to explain the purpose of the program or a statement of code. It starts with the hash symbol # and extends to the end of the line.  It is a good programming practice to add meaningful comments to your program to make it easier to understand. In this exercise, insert two comments in the following program.
+
+from Door import Door
+
+treedoor = Door()
+treedoor.close()
+</Data>
+</Chapter>
+
+

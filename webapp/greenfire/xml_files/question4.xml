@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 4</Title>
+     <Data>Write a program to take Merscythe, Loog and Herv to floor minus -3 in the glass elevator. To use the GlassElevator class, the first line of the program must be:
+from GlassElevator import GlassElevator
+After you have written the program, run the program. If you write the program correctly, chapter 5 will be unlocked.</Data>
+	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected Output: 
+			<samp>
+				Current floor: 0 , Total floors: 201 <br> 
+				At floor 0, moving down to floor -3 <br>
+				At floor -1, moving down to floor -3 <br> 
+				At floor -2, moving down to floor -3 <br> 
+				Arrived at floor -3
+			</samp> ]]>
+		</ExpectedOutput>
+		<Code><![CDATA[
+			<table class="codeTable">
+			    <tr>
+					<th>class Elevator</th>
+				</tr>
+				 <tr>
+					<th>Method</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>go_to_floor(target_floor)</td>
+					<td>Method to take elevator to the floor number given as argument.</td>
+				</tr>
+				<tr>
+					<td>at_top()</td>
+					<td>Method returns True if elevator is at the topmost floor; otherwise, it returns False.</td>
+				</tr>
+				<tr>
+					<td>at_bottom()</td>
+					<td>Method returns True if elevator is at the bottom floor; otherwise, it returns False.</td>
+				</tr>
+			</table>
+			]]>
+		</Code>
+	</Instruction>
+</Chapter>

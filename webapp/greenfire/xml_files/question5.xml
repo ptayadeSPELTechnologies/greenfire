@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 5</Title>
+     <Data>Merscythe sees an unknown object that is speeding away from the tower stop suddenly. He focuses the tower telescope on it to get more information. The in_focus method of class Telescope returns True when an object is in focus. Write a program to display information about the object. First, create an object of class Telescope called tower_telescope. Then use the in_focus method of this class to determine if the object is in focus. If the object is in focus, use the identify method of class Telescope to get the type of the object and print it on the screen. For example, if the identify method returns the text “dome”, the program should print out: The object is a dome.</Data> 
+     	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected output: <samp>The object is a UFO</samp> ]]></ExpectedOutput>	
+		<Code><![CDATA[
+			<table>
+			    <tr>
+					<th colspan='2' align="center">class Telescope</th>
+				</tr>
+				<tr>
+					<th>Method</th>
+					<th>Description</th>
+				</tr>
+					<td>get_distance()</td>
+					<td>Method returns the distance of object from Telescope</td>
+				</tr>
+				<tr>
+					<td>identify()</td>
+					<td>Method returns type of object the Telescope is focused on.</td>
+				</tr>
+				<tr>
+					<td>in_focus()</td>
+					<td>Method returns True if Telescope is in focus.</td>
+				</tr>
+			</table>
+			]]>
+		</Code>
+	 </Instruction>    
+</Chapter>

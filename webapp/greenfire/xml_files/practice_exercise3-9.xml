@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-9: Using a condition to compare text values</Title>
+<Data>The variable text1 stores the word “aficionado”, which may be misspelled. Write a condition to verify that the variable stores the word in lower case with the correct spelling. Remember to enclose text used in programs in single or double quotes.</Data>
+</Chapter>

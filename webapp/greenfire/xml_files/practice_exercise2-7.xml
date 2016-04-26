@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-7: Using the print function</Title>
+<Data>Suppose that the variable vial1 stores the name of the compound in the vial with blue liquid. Write a statement that displays the text “The blue liquid is” followed by the value in the variable vial1.</Data>
+</Chapter>

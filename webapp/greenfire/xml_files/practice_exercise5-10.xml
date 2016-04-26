@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-10: A puzzle</Title>
+<Data>The class Ugc contains a methods called convert_to_local_hours that takes the above ground time in the order hour, minute, and seconds as arguments, and returns the hour in local time. The method convert_to_local_minutes is similar except it returns the minutes. Write a program that prints out the number of hours of time below ground that are in hour of time above ground.</Data>
+</Chapter>

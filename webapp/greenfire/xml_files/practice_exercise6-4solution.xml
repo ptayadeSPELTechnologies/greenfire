@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-4 Solution</Title>
+<Data>num = input('Enter a number')
+
+while float(num) % 2 == 0:
+    print num
+    num = input('Enter a number')
+</Data>
+</Chapter>

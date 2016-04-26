@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-9: The Ugc class</Title>
+<Data>Time below ground is not the same as time above ground. Merscythe comes to this realization when observes the hands on a watch in Loog’s house moving much faster than those on his own watch. The custom class Ugc represents the underground clock. The method convert_to_local_hours in this class takes three arguments in the order hour, minute, and second and returns the local time in hours. Write a program that displays the time below ground when the time above ground is 5 hours, 3 minutes, and 10 seconds.</Data>
+</Chapter>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-3: Displaying result returned by the factorial method</Title>
+<Data>The factorial method in the math class returns the factorial of the argument given to the method. Using this method, write a statement to store the factorial of 5 in the variable five_factorial. Then display the value of this variable using the print function. </Data>
+</Chapter>

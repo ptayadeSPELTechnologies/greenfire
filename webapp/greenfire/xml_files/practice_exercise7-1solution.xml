@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-1 Solution</Title>
+<Data>for i in range(0, 6):
+    print i
+    </Data>
+</Chapter>

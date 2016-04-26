@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-6: Function with one argument</Title>
+<Data>We revisit the input function here. This function takes some text as argument and displays that text on the screen when the program is run. It also reads the data typed in by the user. Using function input, write a statement that displays the following text on the screen: Enter today’s date</Data>
+</Chapter>

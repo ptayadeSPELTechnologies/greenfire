@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Question 6</Title>
+     <Data>To enter Ari's ship surreptitiously, Merscythe has to write a program that can break the code of the locked entrance to the Ariester, Ari's ship.  The Ship class has the following method, which takes a number in the range 0 to 99,999 as argument, to unlock an entrance:
+unlock_entrance(code)
+After an entrance has been locked with a specific five digit secret code, it can only be unlocked using the same code. For example, the following code statements attempt to unlock the entrance with the code 11111.
+ariester = Ship()
+ariester.unlock_entrance(11111)
+The entrance would unlock only if the code supplied is the same as the secret code that was used to lock it.  The method is_entrance_locked can be used to test whether the door is locked. This method does not take any arguments and returns a value of True if the entrance is locked; otherwise, it returns False.
+Merscythe can unlock the entrance by trying all codes in the range 0 to 99,999 as arguments to the unlock_entrance method. However, this would be tedious and time consuming, and it would be more efficient to use a while loop. Using a while loop, write a program that can unlock this entrance. After the program is run successfully, Chapter 7 will be unlocked.</Data>
+	<Instruction>
+		<ExpectedOutput><![CDATA[ Expected Output: <samp>Ariester main entrance unlocked</samp> ]]></ExpectedOutput>
+		<Code><![CDATA[
+			<table>
+			    <tr>
+					<th>class Ship</th>
+				</tr>
+				<tr>
+					<th>Method</th>
+					<th>Description</th>
+				</tr>
+					<td>unlock_entrance(code)</td>
+					<td>Method to unlock entrance of Ship if code is supplied as argument is correct.</td>
+				</tr>
+				<tr>
+					<td>lock_entrance(code)</td>
+					<td>Method to lock entrance of Ship if code is supplied as argument is correct.</td>
+				</tr>
+				<tr>
+					<td>is_entrance_locked()</td>
+					<td>Method returns True if entrance is locked; otherwise, it returns False</td>
+				</tr>
+			</table>
+			]]>
+		</Code>
+	</Instruction>
+</Chapter>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-10: The elif statement
+</Title>
+<Data>The if statement can test only one condition. When you need to evaluate multiple conditions, you can use one or more elif clauses with the if statement. For example, suppose that the word aficionado can be spelled as starting with an uppercase A letter or with all uppercase letters. You can use the elif statement to check these additional conditions as follows:
+
+if text1 == 'aficionado':     print 'All lowercase' elif text1 == 'Aficionado':     print 'Starts with uppercase' elif text1 == 'AFICIONADO':     print 'All uppercase' else:     print 'Spelling not recognized’
+
+Store differing versions of the spelling for aficionado in the variable text1 and run the program a few times.</Data>
+</Chapter>

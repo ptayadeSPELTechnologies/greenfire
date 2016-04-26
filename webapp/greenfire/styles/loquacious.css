@@ -1,0 +1,13 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0 auto;	
+}
+
+h3 {
+	color: blue;
+}
+
+textarea {
+	border: 3px solid blue;
+}

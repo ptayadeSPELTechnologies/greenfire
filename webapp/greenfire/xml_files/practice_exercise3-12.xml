@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-12: Using the less than or equal to operator</Title>
+<Data>
+This type of condition is made up of two operators, a less than symbol followed by an equals sign. For example, to check if variable var1 is less than or equal to variable var2, you can write
+
+var1 &lt;= var2
+
+The variables temp1 and temp2 store two temperatures. Write a condition to check if temp1 is less than or equal to temp2.
+</Data>
+</Chapter>

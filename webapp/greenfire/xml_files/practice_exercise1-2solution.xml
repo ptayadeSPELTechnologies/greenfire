@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-2 Solution</Title>
+<Data>from Elevator import Elevator
+
+elevator1 = Elevator()
+</Data>
+</Chapter>

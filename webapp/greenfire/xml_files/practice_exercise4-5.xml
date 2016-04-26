@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-5: Method with any number of arguments (variadic)</Title>
+<Data>Variadic methods and functions are defined to take any number of arguments. An example is the fsum method in the math class that can take any number of arguments and calculate their sum. Write a statement to show how the fsum method can be used with 3 arguments: 1.2, 2.3, and 3.4.</Data>
+</Chapter>

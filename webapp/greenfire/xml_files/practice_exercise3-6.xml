@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-6: The if-else statement and using the greater than operator</Title>
+<Data>Suppose that you want to compare the depths of two locations below sea level. The first location is Badwater in Death Valley, California, and its depth is stored in the variable badwater_depth. The depth of the second location, Dead Sea in the Jordan Rift Valley, is stored in the variable dead_sea_depth. Use an if-else statement to check if Badwater’s depth is greater than that of Dead Sea and display the text “badwater is greater” or “dead sea is greater” as appropriate.
+</Data>
+</Chapter>

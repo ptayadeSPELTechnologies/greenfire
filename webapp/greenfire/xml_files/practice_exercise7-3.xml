@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-3: Using a for loop with a list of numbers</Title>
+<Data>Using a for loop, write a program to display the elements in a list named list1. This list contains numbers from 100 to 105.</Data>
+</Chapter>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-4: Calling a method</Title>
+<Data>The custom class ScienceFacts contains a method display_age_of_earth that prints out the age of earth. Write a program that calls this method.</Data>
+</Chapter>
+
+

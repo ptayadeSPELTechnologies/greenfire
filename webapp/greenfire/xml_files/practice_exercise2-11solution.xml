@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-11 Solution</Title>
+<Data>print"Multiply your age by 10 and add 2 to it. Then multiply it by 10 and subtract 13. Add your pocket change, which should be in cents and under a dollar. Then subtract 7 to get the result."
+
+result = input("Enter your result: ")
+
+change = float(result)%100
+print change
+</Data>
+</Chapter>

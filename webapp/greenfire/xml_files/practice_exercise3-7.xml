@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-7: Using the less than operator to create a condition</Title>
+<Data>The less than operator is used to compare two numbers. The symbol of this operators is the right arrow. Write a condition to check if the number num1 is less than the number num2. Assign some values to num1 and num2 to test your program and print out the word ‘true’ if the condition is true.</Data>
+</Chapter>

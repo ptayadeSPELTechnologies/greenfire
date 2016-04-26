@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-1 Solution</Title>
+<Data>var1 = 1015
+if var1 == 1015:
+    print 'equal'
+</Data>
+</Chapter>

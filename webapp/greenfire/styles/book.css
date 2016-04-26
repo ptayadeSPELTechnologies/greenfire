@@ -1,0 +1,449 @@
+
+
+nav.horizontal > ul {
+  list-style-type: none;
+  float: right;
+  padding-right: 10%;
+}
+
+nav.horizontal > ul > li {
+  display: inline;
+}
+
+#content{
+  padding: 5%;
+   background: url('/greenfire/images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p {
+  font-size: 22px !important;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Cutive Mono' ;*/
+  line-height: 1.6;
+  color: #000;
+}
+
+.chapterNavigation {
+  top:100px;
+  left:2%;
+  width: 50%;
+  height: 100px;
+  position: absolute;
+}
+
+.horizontalLine { 
+  top:25px;
+  width: 50%;
+  border-top: 2px solid #DDDDDD;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle {
+  width: 140px;
+  height: 100px;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+#circle1{
+  background-color: #c1aa81;
+  top:15%;
+  left:60px;
+  position: absolute;
+}
+
+#circle2{
+  background-color: #c1aa81;
+  top:15%;
+  left:220px;
+  position: absolute;
+}
+
+#circle3{
+  background-color: #c1aa81;
+  top:15%;
+  left:400px;
+  position: absolute;
+}
+
+#circle4{
+  background-color: #c1aa81;
+  top:15%;
+  left:600px;
+  position: absolute;
+}
+
+#circle5{
+  background-color: #c1aa81;
+  top:15%;
+  left:800px;
+  position: absolute;
+}
+
+#circle6{
+  background-color: #c1aa81;
+  top:15%;
+  left:1000px;
+  position: absolute;
+}
+
+#circle7{
+  background-color: #c1aa81;
+  top:15%;
+  left:1200px;
+  position: absolute;
+}
+#circle8{
+  background-color: #c1aa81;
+  top:15%;
+  left:1400px;
+  position: absolute;
+}
+
+#circle9{
+  background-color: #c1aa81;
+  top:15%;
+  left:1600px;
+  position: absolute;
+}
+
+.circleTextUnlocked {
+  font-family: 'Courier New';
+  color:black;
+  font-size: 20px;
+  color:black;  
+  text-align: center;  
+}
+
+.circleTextLocked {
+  color: #4f4e4e;   
+  text-align: center;
+}
+
+.circleTextQuestion{
+  color: black;
+}
+
+.circleQuestion {
+  font-family: 'Courier New';
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  position: relative;
+  padding-top: 25%;
+  text-align: center;
+}
+
+.navLink a{
+  font-family: 'Courier New';
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+
+}
+
+.navLink a :hover {
+  width: 120px;
+  height: 80px;
+  border: 0px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.navLink a:active {
+  width: 150px;
+  height: 110px;
+  border: 0px solid white;
+  color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.horizontal a {
+  color: white;
+  font-family: 'Courier New';
+  font-size: 26px;
+}
+
+.innerContainer{
+  top:30%;
+  position:absolute;
+  left:10%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.inner-container{
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  align-items: center ;
+  padding-left:10%;
+}
+
+/*	.b-page-12{
+background-image: url("/greenfire/images/merscythe_Cover_back_gold 3.png") !important;
+background-size: cover;  background-repeat:   no-repeat; background-position: center center;
+top:-16px !important; left:-6px !important;
+}
+
+.b-page-1{
+background-image: url("/greenfire/images/merscythe_Cover_gold 5.png") !important;
+background-size: cover;  background-repeat:   no-repeat; background-position: center center;
+}*/
+
+.bookcontainer{
+  width: 1150px;
+  height:733px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url("/greenfire/images/book.png");
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat:   no-repeat;
+}
+
+#mybook {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 26px !important;
+  font-family: Georgia, serif !important;
+  max-height: 900px;
+  align:center;
+  vertical-align: center;
+  top:25px;
+  left:10px;
+  text-align: left;
+}
+
+.custompage{
+  /* background-image:url("/greenfire/images/rightpage.png");*/
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat:   no-repeat;
+  height: 900px;
+  top:-100px;
+}
+
+/*.custompage img {
+display: block;
+}*/
+
+/*   */
+.seperator{
+  overflow:scroll; height:30px;
+}
+
+.white{
+ /* background-color: white !important;*/
+}
+
+.qdiv{
+  padding: 2%;
+  background-color: #F1F1F3 !important;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.miniLoq{
+  padding-top: 5%;
+}
+
+.miniLoqTable{
+  padding-left: 5%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+/*   used on question page to display output*/
+.outputbox{
+  background-color: white !important;
+  padding: 2%;
+}
+
+/*   used on question page for title of section*/
+.title5 {
+  font-family: Georgia, serif !important;
+  font-size: 20px; 
+  margin: 0;
+  position: relative;
+}
+
+.title6 {
+  font-family: Georgia, serif !important;
+  font-size: 20px; 
+  margin: 0;
+  position: relative;
+  padding-top: 5%;
+}
+
+.title2 {
+  /* font-family: 'Tangerine', serif;*/
+  font-family: 'Cutive Mono' ;
+  font-size: 48px; 
+  text-shadow: 4px 4px 4px #aaa; 
+  margin: 0;
+  position: relative;
+  padding-top: 50%;
+  text-align: center;
+}
+
+.title4 {
+  font-size: 18px !important;
+  text-shadow: 4px 4px 4px #aaa; 
+  margin: 0;
+  position: relative;
+}
+
+.title3 {
+  font-family: 'Cutive Mono' ;
+  font-size: 40px; 
+  text-shadow: 4px 4px 4px #aaa; 
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Cutive Mono' ;
+  text-align: center; 
+  font-size: 26px !important;
+}
+
+.truncate {
+  height: 730px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lock{
+  margin: 0;
+  position: relative;
+  padding-top: 50%;
+  text-align: center;
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  color: green;
+  line-height: 1;
+  padding: .6em .8em;
+  /*background: #009afd;*/
+  /* background:#ed3333;*/
+  background: white;
+  -webkit-transition: background 0.15s ease, color 0.15s ease;
+  -moz-transition: background 0.15s ease, color 0.15s ease;
+  -ms-transition: background 0.15s ease, color 0.15s ease;
+  -o-transition: background 0.15s ease, color 0.15s ease;
+  /*border: 1px solid #1777b7;*/ 
+  border: 1px solid white;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
+  border-radius: 3px;
+}
+
+.loq{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+
+.bar{
+  background-color: #f1f1f1;
+}
+
+.bar1{
+  background:#a6a6a6;
+}
+
+.logo{
+  font-family:Aileron Regular;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.locbox{
+  border: none;
+}
+
+#output{
+  background:white;
+}
+
+.message{
+
+}
+
+.editor{
+  font-size: 16px !important;
+  /*background-color:white !important;*/
+  height:100%;
+}
+
+.question{
+  font-size: 16px !important;
+ /* background-color:white !important; */
+  height:100%;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.bookpage{
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:50%;
+}
+
+.codeTable {
+  width:100%;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+nav.chapter-Nav-horizontal > ul {
+  list-style-type: none;
+  padding-bottom: 4%;
+}
+
+nav.chapter-Nav-horizontal  > ul > li {
+  display: inline;
+}
+
+.container{    
+  padding-right: 0px; 
+  padding-left: 0px; 
+  margin-right: auto;
+  margin-left: auto;
+  width:1300px;
+
+}
+
+      
+
+	

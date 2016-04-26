@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-7 solution</Title>
+<Data>num1 = 10
+num2 = 20
+
+if num1 &lt; num2:
+    print 'true'
+</Data>
+</Chapter>

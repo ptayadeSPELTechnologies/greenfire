@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-8: Displaying the number of the highest floor in the Glass Elevator</Title>
+<Data>The custom class GlassElevator has a method at_top that returns True if the elevator is at the highest floor. The method go_to_floor in class GlassElevator takes the floor number of the destination floor as argument and moves the elevator to this floor. Write a program that uses a while loop to display the number of each floor as the elevator moves from the 0th floor to the highest floor. When the elevator reaches the highest floor, the program should display the number of that floor preceded by the following text:
+The highest floor is</Data>
+</Chapter>

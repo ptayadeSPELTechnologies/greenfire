@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-5: The if-else statement and using the greater than operator</Title>
+<Data>The greater than operator is used to compare two numbers. The symbol for this operator is the right arrow. For example, to check if the variable num1 is greater than num2, you can create the condition:
+	num1 > num2
+
+This condition is true if the first number num1 is greater than the second num2. In this problem, you will use this operator to determine the composition of the earth’s crust. Suppose that the variables feldspar_percent and quartz_percent store the percentage of two common minerals occurring in the earth’s crust, feldspar and quartz, respectively. Write an if-else statement to compare the two variables and display the text “feldspar is greater” or “quartz is greater” as appropriate.</Data>
+</Chapter>

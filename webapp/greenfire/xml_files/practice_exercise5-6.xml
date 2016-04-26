@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-6: Comparing values returned by methods</Title>
+<Data>G-forces are the forces you experience when riding a roller-coaster or even when stationary. These forces are created by acceleration of an object. A stationary object experiences a g-force of 1g, which is force due to gravity with a value of 9.8 m/s2. The method g_forces in the custom class ScienceFacts returns the typical value of g-forces in an object such as a rocket or roller coaster. This method takes one text argument such as “Roller coaster”, “rocket”, or “free fall elevator”. Write a statement to compare the g-forces experienced in a roller coaster and a freely falling elevator, and display the text “Roller coaster” or “Elevator” depending on whichever one has greater g-forces.	
+</Data>
+</Chapter>

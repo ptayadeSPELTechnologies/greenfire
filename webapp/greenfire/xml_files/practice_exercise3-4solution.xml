@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-4 Solution</Title>
+<Data>thickness1 = 20
+thickness2 = 3
+if thickness1 != thickness2:
+    print 'not equal'
+else:
+    print 'equal'
+</Data>
+</Chapter>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-5 Solution</Title>
+<Data>print divmod(500, 24)
+</Data>
+</Chapter>

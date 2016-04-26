@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-2 Solution</Title>
+<Data>seq = range(100, 104)
+print seq
+</Data>
+</Chapter>

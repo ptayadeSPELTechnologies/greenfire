@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-8: Using a for loop to display objects in a list</Title>
+<Data>The list named ufo_list created in the previous exercise contains objects of the Ufo class. Use a for loop to iterate over the list and display information about each object using the display method in the Ufo class.
+</Data>
+</Chapter>

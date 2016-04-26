@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-8 Solution</Title>
+<Data>from Ufo import Ufo
+
+ufo1 = Ufo(10, 'inactive')
+ufo2 = Ufo(13, 'active')
+
+ufo_list = [ufo1, ufo2]
+for ufo in ufo_list:
+    print ufo</Data>
+</Chapter>

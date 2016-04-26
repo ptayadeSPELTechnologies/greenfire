@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-5: Displaying result returned by the sum method</Title>
+<Data>The fsum method in the math class returns the sum of all its arguments. Use this method to determine the sum of the number 1050, 2050, and 3050 and store the result returned by the method in the variable sum_result. Display the value of this variable using a print function.</Data>
+</Chapter>

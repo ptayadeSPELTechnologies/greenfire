@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-4: Reading user input inside a while loop</Title>
+<Data>Prompt a user to enter a number and read it into a variable called num. Using a while loop, repeat this process until the user enters an odd number. Hint: use the modulo operator in the condition to determine if the number is even.
+</Data>
+</Chapter>

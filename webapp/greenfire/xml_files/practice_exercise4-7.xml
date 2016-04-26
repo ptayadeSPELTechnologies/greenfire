@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-7: Function with two arguments</Title>
+<Data>A built-in function in Python is range that is used for generating a sequence of numbers. This function can take 1, 2, or even 3 arguments. For example, range(5, 10) generates a list of numbers starting at 5 and ending at 9. The second argument to the function will never be a part of the sequence. Write a statement using range to generate the list 10, 11, 12, 13, 14 and display it.</Data>
+</Chapter>

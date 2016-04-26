@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-6 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+# create an object of ScienceFacts called science
+science  = ScienceFacts()
+
+# get the g-force in a roller coaster using method g_forces
+roller_coaster_gforce = science.g_forces('Roller coaster')
+
+# get the g-force in a roller coaster using method g_forces
+elevator_gforce = science.g_forces('free fall elevator')
+
+# compare the g-forces and display the name of the object with greater force
+if roller_coaster_gforce > elevator_gforce:
+    print 'Roller coaster'
+else:
+    print 'Elevator'
+</Data>
+</Chapter>

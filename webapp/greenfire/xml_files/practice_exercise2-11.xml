@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-11: Creating a number game</Title>
+<Data>Write a program that will surprise your friend by guessing the loose change in his or her pocket. The pocket change should be under one dollar. To write the program, first use the print function to display the instructions for the game. Ask the friend to multiply his or her age by 10, add 2 to the resulting number, then multiply it by 10, subtract 13, and add their pocket change in cents to get a result. Next, use the input function prompt your friend to enter the result they got and read it into the program. Then subtract 7 from the result and divide it by 100. The remainder will be your friend’s pocket change! Display this value to your friend using the print function.</Data>
+</Chapter>

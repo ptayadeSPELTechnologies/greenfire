@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-9 Solution</Title>
+<Data>text1 = 'afficionado'
+
+if text1 == 'aficionado':
+    print 'The spelling is correct'
+else:
+    print 'The spelling is incorrect'
+</Data>
+</Chapter>

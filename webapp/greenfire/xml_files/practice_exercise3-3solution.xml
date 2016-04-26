@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-3 Solution</Title>
+<Data>if 5 == 10:
+    print '5 is equal to 10'
+else:
+    print '5 is not equal to 10'
+</Data>
+</Chapter>

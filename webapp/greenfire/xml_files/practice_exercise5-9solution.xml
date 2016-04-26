@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-9 Solution</Title>
+<Data>from Ugc import Ugc
+
+clock = Ugc()
+hours = clock.convert_to_local_hours(5, 3, 10)
+print 'The local time in hours is ' +str(hours)
+</Data>
+</Chapter>

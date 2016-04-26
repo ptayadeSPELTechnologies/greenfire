@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 2-7 Solution</Title>
+<Data>vial1 = 'unknown'
+print 'The blue liquid is ' +vial1
+</Data>
+</Chapter>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 7-3 Solution</Title>
+<Data>list1 = [100, 101, 102, 103, 104, 105]
+
+for i in list1:
+    print i
+</Data>
+</Chapter>

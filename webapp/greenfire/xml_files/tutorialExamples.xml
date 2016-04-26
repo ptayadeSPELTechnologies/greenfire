@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Examples>
+<Data>from Door import Door
+treedoor = Door()
+treedoor.close() 
+</Data>
+<Data>day_of_week = input(‘Enter your favorite day of the week’)
+print day_of_week
+</Data>
+<Data>if user == 'Ari':
+    print ‘Access granted’
+else:
+    print 'Access denied'
+    exit.close()
+    siren.enable()
+</Data>
+<Data>from GlassElevator import GlassElevator
+glass_elevator = GlassElevator()
+glass_elevator.go_to_floor(5)
+</Data>
+<Data>from Tower import Tower
+tower_room = Tower()
+area = tower_room.get_area()
+print area
+</Data>
+<Data>from GlassElevator import GlassElevator
+glass_elevator = GlassElevator()
+while glass_elevator.at_top() == False:
+    glass_elevator.go_to_floor(1)
+</Data>
+<Data>for i in range(10):
+print i
+</Data>
+</Examples>

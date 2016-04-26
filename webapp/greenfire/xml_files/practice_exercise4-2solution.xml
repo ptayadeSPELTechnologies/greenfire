@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-2 Solution</Title>
+<Data>from ScienceFacts import ScienceFacts
+
+science = ScienceFacts()
+# display information about the capybara
+science.display_animal_facts(name = 'capybara')
+</Data>
+</Chapter>

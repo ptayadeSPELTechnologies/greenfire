@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<site-conf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.ofbiz.org/dtds/site-conf.xsd">
+    <description>First Hello World Site Configuration File</description>
+    <owner>Open For Business Project (c) 2005 </owner>
+    <errorpage>/error/error.jsp</errorpage>
+
+    <handler name="java" type="request" class="org.ofbiz.webapp.event.JavaEventHandler"/>
+    <handler name="soap" type="request" class="org.ofbiz.webapp.event.SOAPEventHandler"/>
+    <handler name="service" type="request" class="org.ofbiz.webapp.event.ServiceEventHandler"/>
+    <handler name="service-multi" type="request" class="org.ofbiz.webapp.event.ServiceMultiEventHandler"/>
+    <handler name="simple" type="request" class="org.ofbiz.webapp.event.SimpleEventHandler"/>
+
+    <handler name="ftl" type="view" class="org.ofbiz.webapp.ftl.FreeMarkerViewHandler"/>
+    <handler name="jsp" type="view" class="org.ofbiz.webapp.view.JspViewHandler"/>
+    <handler name="screen" type="view" class="org.ofbiz.widget.screen.MacroScreenViewHandler"/>
+
+    <handler name="http" type="view" class="org.ofbiz.webapp.view.HttpViewHandler"/>
+
+    <preprocessor>
+        <!-- Events to run on every request before security (chains exempt) -->
+        <!-- <event type="java" path="org.ofbiz.webapp.event.TestEvent" invoke="test"/> -->
+        <event type="java" path="org.ofbiz.securityext.login.LoginEvents" invoke="checkExternalLoginKey"/>
+    </preprocessor>
+    <postprocessor>
+        <!-- Events to run on every request after all other processing (chains exempt) -->
+        <!-- <event type="java" path="org.ofbiz.webapp.event.TestEvent" invoke="test"/> -->
+    </postprocessor>
+
+    <!-- Request Mappings -->
+    <request-map uri="editor">
+        <response name="success" type="view" value="editor"/>
+    </request-map>
+    
+    <request-map uri="chapters">
+        <response name="success" type="view" value="chapters"/>
+    </request-map>
+    
+    <request-map uri="index">
+        <response name="success" type="view" value="home"/>
+    </request-map>
+    
+    <request-map uri="book">
+    	<!--<event type="java" path="org.ofbiz.order.order.MyEvents" invoke="ReadBook"/>-->
+    	<event type="java" path="org.ofbiz.order.order.Book" invoke="doGet"/>
+        <response name="success" type="view" value="home"/>
+    </request-map>
+    
+    
+    <request-map uri="BookData">
+    	<event type="java" path="org.ofbiz.greenfire.greenfire.BookData" invoke="doGet"/>
+    	<response name="success" type="view" value="home"/>
+    </request-map>
+    
+   <request-map uri="book1">
+        <response name="success" type="view" value="book1"/>
+    </request-map>
+    
+    <request-map uri="chapternav">
+    	<!--<event type="java" path="org.ofbiz.order.order.MyEvents" invoke="ReadBook"/>-->
+    	<event type="java" path="org.ofbiz.order.order.ChapterNav" invoke="doGet"/>
+        <response name="success" type="view" value="home"/>
+    </request-map>
+    
+    <request-map uri="tutorials">
+        <response name="success" type="view" value="tutorials"/>
+    </request-map>
+    
+    <request-map uri="tutorial1" >
+        <response name="success" type="view" value="tutorial1"/>
+    </request-map>
+    <request-map uri="tutorial2" >
+        <response name="success" type="view" value="tutorial2"/>
+    </request-map>
+    
+    <request-map uri="tutorial3" >
+        <response name="success" type="view" value="tutorial3"/>
+    </request-map>
+    <request-map uri="tutorial4" >
+        <response name="success" type="view" value="tutorial4"/>
+    </request-map> 
+    
+    <request-map uri="tutorial5" >
+        <response name="success" type="view" value="tutorial5"/>
+    </request-map>
+    
+    <request-map uri="tutorial6" >
+        <response name="success" type="view" value="tutorial6"/>
+    </request-map>  
+    <request-map uri="tutorial7" >
+        <response name="success" type="view" value="tutorial7"/>
+    </request-map>  
+       
+    <request-map uri="questions">
+        <response name="success" type="view" value="questions"/>
+    </request-map>
+    
+    <request-map uri="practice_exercises">
+        <response name="success" type="view" value="practice_exercises"/>
+    </request-map>
+    
+     <request-map uri="chapter1">
+        <response name="success" type="view" value="chapter1"/>
+    </request-map>
+    
+    <request-map uri="NestedSections">
+        <response name="success" type="view" value="NestedSections"/>
+    </request-map>
+
+    <request-map uri="CompoundedScreen">
+        <response name="success" type="view" value="CompoundedScreen"/>
+    </request-map>
+    
+    <request-map uri="processFirstForm">
+    	<event type="java" path="org.ofbiz.order.order.LearningEvents" invoke="processFirstForm"/>
+        <response name="success" type="view" value="OneFormScreen"/>
+    </request-map>
+    
+     <request-map uri="ListForm">
+        <response name="success" type="view" value="ListFormScreen"/>
+    </request-map>
+    
+      <request-map uri="processListForm">
+    	<event type="java" path="org.ofbiz.order.order.LearningEvents" invoke="processFirstForm"/>
+        <response name="success" type="view" value="ListFormScreen"/>
+    </request-map>
+    
+     <request-map uri="MultiForm">
+        <response name="success" type="view" value="MultiFormScreen"/>
+    </request-map>
+    
+    <request-map uri="processMultiForm">
+    	<event type="java" path="org.ofbiz.order.order.LearningEvents" invoke="processMultiForm"/>
+        <response name="success" type="view" value="MultiFormScreen"/>
+    </request-map>
+    
+   <request-map uri="TwoTargetForm">
+        <response name="success" type="view" value="TwoTargetFormScreen"/>
+    </request-map>
+    
+    <request-map uri="RowMutatingForm">
+        <response name="success" type="view" value="RowMutatingFormScreen"/>
+    </request-map>
+    
+    <!--  Remove this one -->
+    <request-map uri="email_list_test">
+        <response name="success" type="view" value="email_list_test"/>
+    </request-map>
+    
+    <!-- end of request mappings -->
+
+    <!-- View Mappings -->
+    <view-map name="error" page="/error/error.jsp"/>
+    <view-map name="editor" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#editor"/>
+    <view-map name="chapters" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#chapters"/>
+    <view-map name="tutorials" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorials"/>
+    <view-map name="questions" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#questions"/>
+    <view-map name="practice_exercises" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#practice_exercises"/>
+    <view-map name="NestedSections" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#NestedSections"/>
+    <view-map name="CompoundedScreen" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#CompoundedScreen"/>
+    <view-map name="OneFormScreen" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#oneFormScreen"/>
+    <view-map name="ListFormScreen" type="screen" page="component://greenfire/widget/LearningScreens.xml#ListFormScreen"/>
+    <view-map name="MultiFormScreen" type="screen" page="component://greenfire/widget/LearningScreens.xml#MultiFormScreen"/>
+    <view-map name="TwoTargetFormScreen" type="screen" page="component://greenfire/widget/LearningScreens.xml#TwoTargetFormScreen"/>
+    <view-map name="RowMutatingFormScreen" type="screen" page="component://greenfire/widget/LearningScreens.xml#RowMutatingFormScreen"/>
+    
+    <view-map name="home" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#home"/>
+    <view-map name="book1" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#book1"/>
+    <view-map name="tutorial1" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial1"/>
+    <view-map name="tutorial2" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial2"/>
+    <view-map name="tutorial3" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial3"/>
+    <view-map name="tutorial4" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial4"/>
+    <view-map name="tutorial5" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial5"/>
+    <view-map name="tutorial6" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial6"/>
+    <view-map name="tutorial7" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#tutorial7"/>
+      
+    <!--  Remove this one -->
+    <view-map name="chapter1" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#chapter1"/>
+    <view-map name="email_list_test" type="screen" page="component://greenfire/widget/GreenFireScreens.xml#email_list_test"/>
+    <!-- end of view mappings -->
+</site-conf>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 6-1 Solution</Title>
+<Data>i = 0
+
+while i &lt;= 5:
+     print i
+     i = i + 1
+</Data>
+</Chapter>

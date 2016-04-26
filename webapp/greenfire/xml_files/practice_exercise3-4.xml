@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>
+Practice Exercise 3-4: The if-else statement and using the not equals operator</Title>
+<Data>The not equals operator is used to check if two values are not equal. This operator consists of an exclamation mark followed by an equals sign. For example, to create the condition var1 is not equal to 1015, you can write:
+
+	var1 != 1015
+
+Suppose that the variable thickness1 stores the thickness of the Earth’s crust under continents and the variable thickness2 stores the crust’s thickness under oceans, in miles. In this problem, use an if-else statement to create the condition “thickness1 is not equal to thickness2”. If this condition is true, display a message “not equal”; otherwise, display the message “equal”.</Data>
+</Chapter>

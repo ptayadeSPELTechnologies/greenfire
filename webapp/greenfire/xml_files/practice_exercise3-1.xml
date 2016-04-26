@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-1: Using an if statement</Title>
+<Data>Create a variable called var1 with the value 1015. Write an if statement to check if var1 has the value 1015. If this condition is true, the action taken should to display the text “equal”.
+</Data>
+</Chapter>

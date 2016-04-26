@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 3-3: Using the equals operator</Title>
+<Data>Write an if statement to check if the number 5 is equal to the number 10. If the condition is true, the action taken is to display the text “5 is equal to 10”; otherwise, the text “5 is not equal to 10” is displayed.</Data>
+</Chapter>

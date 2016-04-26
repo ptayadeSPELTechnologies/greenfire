@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 4-8: Function with any number of arguments</Title>
+<Data>Similar to methods, variadic functions can take any number of arguments. An example is the print function. This function can be used both with and without parenthesis. For example, in the following print statement, the variables name1 and name2 are substituted with their values when the program is run:
+
+print name1, “is the commander of the “, name2, “said Loog”
+
+As an exercise, assign the correct values to the variables name1 and name2 before the print statement is called and run the program.</Data>
+</Chapter>

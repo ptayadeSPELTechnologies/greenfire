@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 1-1: Creating an object</Title>
+<Data>The class ScienceFacts contains interesting facts and numbers. This is a custom class because it is not built into the Python programming language. Create an object of this class called science.</Data>
+</Chapter>

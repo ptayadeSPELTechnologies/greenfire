@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+     <Title>Python Tutorial 6: The while Loop</Title>
+     <Data>In this tutorial, you are going to learn when a loop is needed in a program and how to write it. There are two types of loops in Python, for and while. This tutorial will focus on the while loop.
+A loop is used to perform tasks repeatedly. As an example, after Herv makes some soup for Merscythe and himself, he checks at intervals of one minute if it has cooled sufficiently to be served. So, Herv could do something like this:
+wait one minute
+check if soup is hot
+wait one minute
+Herv continues to do this until the soup is no longer hot. Can you identify the condition and actions here? The condition is "soup is hot". As long as the condition is true, the action performed is to "wait one minute". In programming, this process of checking the condition and performing an action repeatedly can be put into a loop:
+while soup is hot :
+wait one minute
+The word while is a keyword in Python. A condition must follow this keyword. If the condition is True, the actions in the while clause will be executed. Otherwise, if the condition is False, the actions will be skipped and the loop will terminate. The actions are placed in the lines after the while statement and must be indented by a consistent number of spaces. This format is similar to that of the actions used in the if and else condition clauses. The difference between an if and while clause is that the former is executed only once whereas the latter is executed repeatedly until the condition becomes False. Suppose we would like to add an action "drink soup" to be executed when the condition becomes False. The loop can be modified as follows:
+while soup is hot :
+    wait one minute
+drink soup
+The statement "drink soup" is not indented here. It would be incorrect to indent this statement because then it would become an action within the while clause and would be executed when the condition is True. 
+You may be wondering what would happen if a condition was always True. For example, what would happen if the following program were run?
+ while True:
+    print 'hi'
+This will display an unending sequence of the word "hi" when the program is run because the condition is always true. This type of a loop is called an infinite loop. You want to avoid creating an infinite loop in a program. 
+As another example, suppose that you would like to find the floor number of the highest floor that the glass elevator can reach. You could use the method go_to_floor() with the arguments as shown here:
+glass_elevator.go_to_floor(1)
+Change the argument to the next floor number and run the program again. Continue this until the program displays the message "Floor does not exist". However, this process of changing the argument and re-running the program is tedious. Repetitious tasks can be performed within a loop. We can insert the go_to_floor method within the loop, but need to decide what condition can terminate the loop. The loop must terminate when the elevator reaches the top floor. The at_top method in the GlassElevator class can be used to create this condition. The method returns True if the elevator is at the top floor; otherwise, it returns False. The modified code for our program follows below:
+while glass_elevator.at_top() == False:
+    glass_elevator.go_to_floor(1)
+There is still a problem in this code. Although we have used a loop, the argument to the method go_to_floor is 1. We would like to change the floor number to the  values 1, 2, 3, and so on each time the loop is executed and so a variable must be used here.  Let's call this variable next_floor. The modified code looks like this:
+while glass_elevator.at_top() == False:
+    glass_elevator.go_to_floor(next_floor)
+There are two problems in this code. One problem is that the variable next_floor does not have a starting value. This can be corrected by assigning the variable next_floor the value 1 before the loop starts. The second problem is that the value of the variable is not changed to the next higher floor number each time the loop executes. To do this, add a one to the value in the variable next_floor as follows:
+next_floor = next_floor + 1
+Note how the new value of next_floor is assigned back to the variable next_floor. It would be incorrect to write the statement as next_floor + 1 without the assignment because this would not update the value stored in the variable next_floor.
+The complete program is shown below. 
+from GlassElevator import GlassElevator  glass_elevator = GlassElevator()  next_floor = 1 while glass_elevator.at_top() == False:
+    glass_elevator.go_to_floor(next_floor)     next_floor = next_floor + 1
+Copy this program into the editor and run it to  see how high the glass elevator can go. This concludes the tutorial. 
+</Data>
+</Chapter>

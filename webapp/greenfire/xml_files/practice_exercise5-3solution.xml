@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Chapter>
+<Title>Practice Exercise 5-3 Solution</Title>
+<Data>import math
+# calculate the factorial of 5
+five_factorial = math.factorial(5)
+print five_factorial
+</Data>
+</Chapter>
